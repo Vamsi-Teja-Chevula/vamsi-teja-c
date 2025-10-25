@@ -1,3 +1,154 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
-RequestId:b3ffdf5a-501e-0014-0f7c-450705000000
-Time:2025-10-25T06:56:06.3440398Z</Message></Error>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Teja Chevula - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s;
+        }
+        
+        .subtitle {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #764ba2;
+            padding-bottom: 10px;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vamsi Teja Chevula</h1>
+            <p class="subtitle">Welcome to My Portfolio</p>
+            <div class="contact-links">
+                <a href="https://github.com/Vamsi-Teja-Chevula" class="btn" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/vamsi-teja-chevula" class="btn" target="_blank">LinkedIn</a>
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>About Me</h2>
+            <div class="content">
+                <p>Hello! I'm Vamsi Teja Chevula, a passionate developer committed to creating innovative solutions and beautiful web experiences.</p>
+                <p>This portfolio showcases my projects, skills, and professional journey.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="content">
+                <p>Check out my GitHub profile to see my latest projects and contributions to the open-source community.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Contact</h2>
+            <div class="content">
+                <p>Feel free to reach out to me through GitHub or LinkedIn. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
